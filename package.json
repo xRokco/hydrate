@@ -1,0 +1,22 @@
+{
+  "name": "hydrate",
+  "version": "1.0.0",
+  "description": "hydrate twitter bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xRokco/hydrate.git"
+  },
+  "author": "Matt Carrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xRokco/hydrate/issues"
+  },
+  "homepage": "https://github.com/xRokco/hydrate#readme",
+  "dependencies": {
+    "twit": "^2.2.9"
+  }
+}

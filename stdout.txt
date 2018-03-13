@@ -1,0 +1,4 @@
+
+> hydrate@1.0.0 start /home/ec2-user/hydrate
+> node bot.js
+
