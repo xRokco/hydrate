@@ -1,0 +1,14 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - echo lol
+  pre_build:
+    commands:
+      - echo works
+  build:
+    commands:
+      - echo yay
+artifacts:
+  files:
+    - "**/*"
