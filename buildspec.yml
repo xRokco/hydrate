@@ -2,10 +2,10 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo lol
+      - echo $CODEBUILD_SOURCE_VERSION
   pre_build:
     commands:
-      - echo works
+      - echo $CODEBUILD_RESOLVED_SOURCE_VERSION
   build:
     commands:
       - echo yay
