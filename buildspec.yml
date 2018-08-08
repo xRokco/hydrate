@@ -8,7 +8,7 @@ phases:
       - echo $CODEBUILD_RESOLVED_SOURCE_VERSION
   build:
     commands:
-      - echo yay
+      - git show
 artifacts:
   files:
     - "**/*"
