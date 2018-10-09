@@ -2,13 +2,10 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo $CODEBUILD_SOURCE_VERSION
+      - echo test
   pre_build:
     commands:
-      - echo $CODEBUILD_RESOLVED_SOURCE_VERSION
-  build:
-    commands:
-      - git show
+      - echo test2
 artifacts:
   files:
     - "**/*"
