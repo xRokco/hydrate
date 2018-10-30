@@ -2,7 +2,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo test
+      - echo This is new
   pre_build:
     commands:
       - printenv
